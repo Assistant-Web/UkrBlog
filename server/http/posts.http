@@ -1,0 +1,18 @@
+### GET request with a header
+### Get all posts
+
+GET http://localhost:5000/posts
+Accept: application/json
+
+
+### Send POST request with json body
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+  "title": "Заголовок до тестового допису",
+  "subtitle": "Підзаголовок до допису по бажанню",
+  "text": "Текст до мого першого тестового допису, зараз і подивлюсь як це працює!",
+  "tags": ["рекомендації", "теги", "тест", "допис"],
+  "category": "програмування"
+}
