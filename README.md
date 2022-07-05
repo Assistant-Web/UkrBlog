@@ -1,18 +1,46 @@
-# Getting Started with Create React App
+## Ukrainian blog
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To run the project, you first need to copy it locally:
 
-In the project directory, you can run:
+### `git clone https://github.com/Assistant-Web/UkrBlog.git`
 
-### `npm start`
+Next, you need to install all dependencies on the project for the frontend:
 
-Runs the app in the development mode.\
+### `cd UkrBlog\client`
+
+### `npm install`
+
+We wait until all dependencies are installed thanks to the npm package manager, and repeat the same for the backend folder:
+
+### `cd ../`
+
+### `cd server`
+
+### `npm install`
+
+After installing the dependencies for the backend, we start the development project while remaining in this folder:
+
+### `npm run dev`
+
+#### IMPORTANTLY!
+##### This command starts the project for frontend and backend at once.
+
+###### Front-End
+
+The frontend of the application is launched in the browser on the port:\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+###### Back-End
+
+The backend of the application is launched on the port:\
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser for test.
 
 ### `npm test`
 
