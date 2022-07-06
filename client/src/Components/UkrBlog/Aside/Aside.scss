@@ -5,25 +5,15 @@
    top: 50px;
    left: 0;
    background-color: $second-bg-color;
-   width: 60px;
+   width: 50px;
    z-index: 100;
    height: calc(100vh - 50px);
-   box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.35);
 
    &__list {
       margin-top: 18px;
 
       &-item {
 
-         &-img {
-            width: 60%;
-            margin: 0 auto;
-            transition-duration: 0.2s;
-
-            &:hover {
-               transform: scale(1.2);
-            }
-         }
       }
    }
 }

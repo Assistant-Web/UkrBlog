@@ -1,0 +1,22 @@
+.image {
+   width: 100%;
+   display: block;
+   height: auto;
+   margin: 0 auto;
+
+   &--resize60 {
+      width: 60%;
+   }
+
+   &--resize40 {
+      width: 40%;
+   }
+
+   &--scale {
+      transition-duration: 0.2s;
+
+      &:hover {
+         transform: scale(1.2);
+      }
+   }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import './Aside.scss'
 import Link from '../../UI/Link/Link'
 import apps from '../../../assets/icon/apps.svg'
+import Image from '../../UI/Image/Image'
 
 const Aside = () => {
    return (
@@ -11,7 +12,11 @@ const Aside = () => {
                <Link
                   path='/app'
                >
-                  <img className='aside__list-item-img' src={apps} alt='Apps' />
+                  <Image
+                     src={apps}
+                     alt='Apps'
+                     size='resize60 image--scale'
+                  />
                </Link>
             </li>
          </ul>

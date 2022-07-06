@@ -1,0 +1,29 @@
+@import 'src/index';
+
+.input {
+   width: 100%;
+   height: 30px;
+   margin-top: 4px;
+   outline: none;
+   border: 1px solid gray;
+   background-color: black;
+   border-radius: $second-border-radius;
+   color: $base-color-text;
+   padding: 0 2px;
+
+   &::placeholder {
+      color: gray;
+   }
+
+   &:hover {
+      border-color: darkgray;
+   }
+
+   &:focus {
+      border-color: lightgrey;
+   }
+
+   &--medium {
+      height: 28px;
+   }
+}
