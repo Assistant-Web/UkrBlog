@@ -8,4 +8,26 @@
    &--darken {
       color: darkgray;
    }
+
+   &--margin-right-large-not-last {
+
+      &:not(:last-child) {
+         margin-right: 8px;
+      }
+   }
+
+   &--margin-left-small {
+      margin-left: 4px;
+   }
+
+   &--large {
+      font-size: 16px;
+   }
+
+   &--post-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+   }
 }

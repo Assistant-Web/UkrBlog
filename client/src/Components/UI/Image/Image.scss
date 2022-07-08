@@ -12,11 +12,27 @@
       width: 40%;
    }
 
+   &--icon-small {
+      width: 15px;
+   }
+
+   &--icon-extra-small {
+      width: 14px;
+   }
+
    &--scale {
       transition-duration: 0.2s;
 
       &:hover {
          transform: scale(1.2);
       }
+   }
+
+   &--icon {
+      margin: 0;
+   }
+
+   &--margin-right-small {
+      margin-right: 4px;
    }
 }
