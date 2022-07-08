@@ -1,10 +1,10 @@
 import React from 'react'
 import './Title.scss'
 
-const Title = ({children}) => {
+const Title = ({children, size, type}) => {
    return (
       <h2
-         className='title'
+         className={`title title--${size} title--${type}`}
       >
          {children}
       </h2>
