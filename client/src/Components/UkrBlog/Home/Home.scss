@@ -1,6 +1,8 @@
+@import 'src/index';
+
 .home {
    width: calc(100% - 50px);
-   padding: 18px;
+   padding: $base-page-padding;
 
    &__panel {
       display: flex;

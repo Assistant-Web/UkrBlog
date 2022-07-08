@@ -10,7 +10,7 @@ const Aside = () => {
          <ul className='aside__list'>
             <li className='aside__list-item'>
                <Link
-                  path='/app'
+                  path='/apps'
                >
                   <Image
                      src={apps}
