@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.scss'
 
-const Header = ({}) => {
+const Header = () => {
    return (
       <header className='header'>Header</header>
    )
